@@ -1,0 +1,41 @@
+<!-- <header>
+    <nav class="bg-cover bg-center h-64 p-4" style="background-image: url('../../../assets/mower.jpeg');">
+        <div class="flex justify-between items-center h-full">
+            <div>
+                <a class="text-white text-2xl font-bold hover:bg-white hover:text-blue-500 hover:shadow-lg transition duration-300 ease-in-out p-2 rounded" [routerLink]="['/']">Home</a>
+                <a *ngIf="isLoggedIn" class="text-white text-2xl font-bold hover:bg-white hover:text-blue-500 hover:shadow-lg transition duration-300 ease-in-out p-2 rounded ml-4" [routerLink]="['/services']">Services</a>
+            </div>
+            <div *ngIf="!isLoggedIn">
+                <a class="text-white text-2xl font-bold hover:bg-white hover:text-blue-500 hover:shadow-lg transition duration-300 ease-in-out p-2 rounded ml-4" [routerLink]="['auth/register']">Register</a>
+                <a class="text-white text-2xl font-bold hover:bg-white hover:text-blue-500 hover:shadow-lg transition duration-300 ease-in-out p-2 rounded ml-4" [routerLink]="['auth/login']">Login</a>
+            </div>
+            <div *ngIf="isLoggedIn">                
+                <a class="text-white text-2xl font-bold hover:bg-white hover:text-blue-500 hover:shadow-lg transition duration-300 ease-in-out p-2 rounded ml-4" (click)="logout()">Logout</a>
+            </div>
+        </div>
+    </nav>
+</header> -->
+<header>
+    <nav class="bg-cover bg-center h-64 p-4 relative" style="background-image: url('../../../assets/mower.jpeg');">
+        <div class="flex justify-between items-start h-full relative z-10">
+            <div>
+                <a class="text-white text-2xl font-bold hover:bg-white hover:text-blue-500 hover:shadow-lg transition duration-300 ease-in-out p-2 rounded" [routerLink]="['/']">Home</a>
+                <a *ngIf="isLoggedIn" class="text-white text-2xl font-bold hover:bg-white hover:text-blue-500 hover:shadow-lg transition duration-300 ease-in-out p-2 rounded" [routerLink]="['/services']">Services</a>
+            </div>
+            <div *ngIf="!isLoggedIn" class="mt-4">
+                <a class="text-white text-2xl font-bold hover:bg-white hover:text-blue-500 hover:shadow-lg transition duration-300 ease-in-out p-2 rounded" [routerLink]="['auth/register']">Register</a>
+                <a class="text-white text-2xl font-bold hover:bg-white hover:text-blue-500 hover:shadow-lg transition duration-300 ease-in-out p-2 rounded ml-4" [routerLink]="['auth/login']">Login</a>
+            </div>
+            <div *ngIf="isLoggedIn" class="mt-4">                
+                <a class="text-white text-2xl font-bold hover:bg-white hover:text-blue-500 hover:shadow-lg transition duration-300 ease-in-out p-2 rounded" (click)="logout()">Logout</a>
+            </div>
+        </div>
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-center pointer-events-none">
+            <h1 class="text-white text-4xl font-bold my-4"><u>Lawn Mowing Services</u></h1>
+            <h1 class="text-white text-2xl my-4">Welcome to Brody's Lawn Care!</h1>
+        </div>
+    </nav>
+</header>
+
+
+
