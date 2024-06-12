@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LawnMower")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9868bf513b4f5ace1329407778a66704d3ea7f69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55a871498a2fc736b3346a454f4e39ffa9cae446")]
 [assembly: System.Reflection.AssemblyProductAttribute("LawnMower")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LawnMower")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
