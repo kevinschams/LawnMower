@@ -15,7 +15,7 @@ export class HomeComponent {
       title: 'Front Yard Mowing',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
     },
-    // Add more image objects as they increase
+    // Add more image objects as you get clients
   ];
 }
 @NgModule({
